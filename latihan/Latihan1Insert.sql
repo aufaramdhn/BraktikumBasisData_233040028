@@ -1,9 +1,9 @@
 CREATE TABLE mahasiswa (
 id int primary key,
-nim int,
-nama varchar(100),
-jurusan varchar(100),
-tanggallahir date,
+nim int NOT NULL,
+nama varchar(100) NOT NULL,
+jurusan varchar(100) NOT NULL,
+tanggallahir date NOT NULL,
 );
 
 INSERT INTO MAHASISWA (id,nim,nama,jurusan,tanggallahir)
